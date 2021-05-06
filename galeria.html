@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pórtfólió</title>
+
+	<meta charset="utf-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">	
+
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+	<link href="http://fonts.googleapis.com/css2?family=Roboto:ital,wgh@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+	<script type="text/javascript">
+		function fejlec_lenyito() {
+			var element = document.getElementById("lenyilo_menu");
+			element.classList.toggle("latszodik");
+		}
+	</script>
+
+	<script type="text/javascript">
+		function hobbi_lenyito(){
+			var element = document.getElementById("lenyilo_hobbi");
+			element.classList.toggle("nyitotthobbi");
+		}
+	</script>
+
+	<script type="text/javascript">
+		function kirandulas_lenyito(){
+			var element = document.getElementById("lenyilo_kirandulas");
+			element.classList.toggle("nyitottkirandulas");
+		}
+	</script>
+
+	<script type="text/javascript">
+		function allatok_lenyito(){
+			var element = document.getElementById("lenyilo_allatok");
+			element.classList.toggle("nyitottallatok");
+		}
+	</script>
+
+
+
+	<header>
+		<div class="fejlec_bal">
+			<img class="nev_logo" src="css/kepek/nev.png">
+		</div>
+
+		<div class="fejlec_jobb">
+			<div class="fejlec_kor_gomb" onclick="fejlec_lenyito()">
+				Menü
+			</div>
+			<div id="lenyilo_menu" class="">
+				<div class="lenyilo_almenu">
+					<img src="css/kepek/kezdooldal.png">
+					<a href="index.html" 
+					class="fejlec_menu">
+					<span>Nyitólap</span>
+					</a>
+				</div>
+
+				<div class="lenyilo_almenu">
+					<img src="css/kepek/bemutatkozas.png">
+					<a href="bemutatkozas.html" 
+					class="fejlec_menu">
+					<span>Bemutatkozás</span>
+					</a>
+				</div>
+
+				<div class="lenyilo_almenu">
+					<img src="css/kepek/dokumentacio.jpg">
+					<a href="dokumentacio.html" 
+					class="fejlec_menu">
+					<span>Dokumentáció</span>
+					</a>
+				</div>
+
+			</div>
+			
+		</div>
+		<hr>
+
+	</header>
+
+	<main>
+		
+		<div class="oldalcim">
+			<img src="css/kepek/galeriaszoveg.png">
+		</div>
+
+		<div class="hobbiklikk" onclick="hobbi_lenyito()">
+			<img src="css/kepek/nyil.png">
+			Hobbi
+		</div>
+
+		<div id="lenyilo_hobbi" class="">
+			<div class="lenyilo_alhobbi">
+				
+
+				<div class="kepek_flex_racs">
+			
+					<div class="kep_kartya">
+						<a href="https://www.mindmegette.hu/dios-lekvaros-palacsintatorta-csokoladeontettel.recept/">
+							<div class="kep">
+								<img src="css/kepek/hobbi/kaja1.jpg">
+							</div>
+						<p>palacsintatorta</p>
+						</a>
+					</div>
+
+					<div class="kep_kartya">
+						<a href="https://foodandwine.hu/2018/04/11/sult-fagylaltok-hogyan-keszits-olajban-sult-fagylaltot/">
+							<div class="kep">
+								<img src="css/kepek/hobbi/kaja2.jpg">
+							</div>
+						<p>sültfagyi</p>
+						</a>
+					</div>
+
+					<div class="kep_kartya">
+						<a href="https://www.nosalty.hu/recept/hortobagyi-husos-palacsinta-2">
+							<div class="kep">
+								<img src="css/kepek/hobbi/kaja3.jpg">
+							</div>
+						<p>Hortobágyi húsos palacsinta</p>
+						</a>
+					</div>
+
+					<div class="kep_kartya">
+						<a href="https://www.nosalty.hu/recept/karacsonyi-rogton-puha-mezeskalacs">
+							<div class="kep">
+								<img src="css/kepek/hobbi/kaja4.jpg">
+							</div>
+						<p>mézeskalács</p>
+						</a>
+					</div>
+
+					<div class="kep_kartya">
+						<a href="https://streetkitchen.hu/green-kitchen/glutenmentes/a-tokeletes-zabpalacsinta/">
+							<div class="kep">
+								<img src="css/kepek/hobbi/kaja5.jpg">
+							</div>
+						<p>zabpalacsinta</p>
+						</a>
+					</div>
+
+					<div class="kep_kartya">
+						<a href="https://www.nosalty.hu/recept/karacsonyi-rogton-puha-mezeskalacs">
+							<div class="kep">
+								<img src="css/kepek/hobbi/kaja6.jpg">
+							</div>
+						<p>boldog paprika</p>
+						</a>
+					</div>
+
+					<div class="kep_kartya">
+						<a href="https://www.nosalty.hu/recept/bazsalikomos-tejszines-csirkemell-rozmaringos-sult-burgonyaval">
+							<div class="kep">
+								<img src="css/kepek/hobbi/kaja7.jpg">
+							</div>
+						<p>tejszínes csirkemell</p>
+						</a>
+					</div>
+
+				
+
+					<div class="kep_kartya">
+						<a href="https://www.nosalty.hu/recept/vaniliakremmel-toltott-mini-kurtosok">
+							<div class="kep">
+								<img src="css/kepek/hobbi/kaja8.jpg">
+							</div>
+						<p>vaníliakrémmel töltött kürtöskalács</p>
+						</a>
+					</div>
+
+					<div class="kep_kartya">
+						<a href="#">
+							<div class="kep">
+								<img src="css/kepek/hobbi/motor1.jpg">
+							</div>
+						<p>első motorozások</p>
+						</a>
+					</div>
+					<div class="kep_kartya">
+						<a href="#">
+							<div class="kep">
+								<img src="css/kepek/hobbi/motor2.jpg">
+							</div>
+						<p>sokadik motorozás</p>
+						</a>
+					</div>
+
+				</div>
+			</div>
+		</div>	
+
+
+
+
+		<div class="kirandulasklikk" onclick="kirandulas_lenyito()">
+			<img src="css/kepek/nyil.png">
+			Kirándulás
+		</div>
+
+		<div id="lenyilo_kirandulas" class="">
+			<div class="lenyilo_alkirandulas">
+				
+
+				<div class="kepek_flex_racs">
+			
+					<div class="kep_kartya">
+						<a href="https://hu.wikipedia.org/wiki/Minorita_templom_(Eger)">
+							<div class="kep">
+								<img src="css/kepek/kirandulas/kirandulas1.jpg">
+							</div>
+						<p>Minorita templom (Eger)</p>
+						</a>
+					</div>
+
+					<div class="kep_kartya">
+						<a href="https://hu.wikipedia.org/wiki/Dob%C3%B3_Istv%C3%A1n_t%C3%A9r">
+							<div class="kep">
+								<img src="css/kepek/kirandulas/kirandulas2.jpg">
+							</div>
+						<p>Dobó István tér (Eger)</p>
+						</a>
+					</div>
+
+					<div class="kep_kartya">
+						<a href="https://hu.wikipedia.org/wiki/Dob%C3%B3_Istv%C3%A1n_t%C3%A9r">
+							<div class="kep">
+								<img src="css/kepek/kirandulas/kirandulas3.jpg">
+							</div>
+						<p>Dobó István tér (Eger)</p>
+						</a>
+					</div>
+
+					<div class="kep_kartya">
+						<a href="https://hu.wikipedia.org/wiki/Dob%C3%B3_Istv%C3%A1n_t%C3%A9r">
+							<div class="kep">
+								<img src="css/kepek/kirandulas/kirandulas4.jpg">
+							</div>
+						<p>Dobó István tér (Eger)</p>
+						</a>
+					</div>
+
+					<div class="kep_kartya">
+						<a href="https://www.termeszetjaro.hu/hu/poi/kilato/bence-hegyi-kilato/26769722/">
+							<div class="kep">
+								<img src="css/kepek/kirandulas/kirandulas5.jpg">
+							</div>
+						<p>Bence-hegyi kilátó</p>
+						</a>
+					</div>
+
+					<div class="kep_kartya">
+						<a href="http://www.egriersekipalota.hu/">
+							<div class="kep">
+								<img src="css/kepek/kirandulas/kirandulas6.jpg">
+							</div>
+						<p>Egri Érseki Palota</p>
+						</a>
+					</div>
+
+					<div class="kep_kartya">
+						<a href="https://visiteger.com/latnivalok/terek/ersekkert">
+							<div class="kep">
+								<img src="css/kepek/kirandulas/kirandulas7.jpg">
+							</div>
+						<p>Szmrecsányi Lajos Kert (Érsekkert)</p>
+						</a>
+					</div>
+
+					<div class="kep_kartya">
+						<a href="https://www.egrivar.hu/fooldal">
+							<div class="kep">
+								<img src="css/kepek/kirandulas/kirandulas8.jpg">					
+							</div>
+						<p>Egri Vár</p>
+						</a>
+					</div>
+
+					<div class="kep_kartya">
+						<a href="https://www.termeszetjaro.hu/hu/poi/kilato/bence-hegyi-kilato/26769722/">
+							<div class="kep">
+								<img src="css/kepek/kirandulas/kirandulas9.jpg">
+							</div>
+						<p>Bence-hegyi kilátó</p>
+						</a>
+					</div>
+
+					<div class="kep_kartya">
+						<a href="https://varpark.hu/">
+							<div class="kep">
+								<img src="css/kepek/kirandulas/kirandulas10.jpg">
+							</div>
+						<p>Várpark (Dinnyés)</p>
+						</a>
+					</div>
+
+					<div class="kep_kartya">
+						<a href="https://varpark.hu/">
+							<div class="kep">
+								<img src="css/kepek/kirandulas/kirandulas11.jpg">
+							</div>
+						<p>Várpark (Dinnyés)</p>
+						</a>
+					</div>
+
+					<div class="kep_kartya">
+						<a href="https://szallas.hu/programok/egerszaloki-sodomb-egerszalok-p3319">
+							<div class="kep">
+								<img src="css/kepek/kirandulas/kirandulas12.jpg">
+							</div>
+						<p>Egerszalóki Sódomb</p>
+						</a>
+					</div>
+
+					<div class="kep_kartya">
+						<a href="https://parkerdo.hu/turizmus/latnivalok/vadallo-kovek/">
+							<div class="kep">
+								<img src="css/kepek/kirandulas/kirandulas13.jpg">
+							</div>
+						<p>Vadálló-kövek (Pilis)</p>
+						</a>
+					</div>
+
+					<div class="kep_kartya">
+						<a href="https://parkerdo.hu/turizmus/latnivalok/vadallo-kovek/">
+							<div class="kep">
+								<img src="css/kepek/kirandulas/kirandulas14.jpg">
+							</div>
+						<p>Vadálló-kövek (Pilis)</p>
+						</a>
+					</div>
+
+					<div class="kep_kartya">
+						<a href="https://parkerdo.hu/turizmus/latnivalok/vadallo-kovek/">
+							<div class="kep">
+								<img src="css/kepek/kirandulas/kirandulas15.jpg">
+							</div>
+						<p>Vadálló-kövek (Pilis)</p>
+						</a>
+					</div>
+
+					<div class="kep_kartya">
+						<a href="https://parkerdo.hu/turizmus/latnivalok/vadallo-kovek/">
+							<div class="kep">
+								<img src="css/kepek/kirandulas/kirandulas16.jpg">
+							</div>
+						<p>Vadálló-kövek (Pilis)</p>
+						</a>
+					</div>
+
+					<div class="kep_kartya">
+						<a href="https://kirandulastippek.hu/dunakanyar/predikaloszek-vadallo-kovek-domosi-rovid-kortura">
+							<div class="kep">
+								<img src="css/kepek/kirandulas/kirandulas17.jpg">
+							</div>
+						<p>Prédikálószék (Pilis)</p>
+						</a>
+					</div>
+
+					<div class="kep_kartya">
+						<a href="https://www.hungarospa.hu/aquapark">
+							<div class="kep">
+								<img src="css/kepek/kirandulas/kirandulas18.jpg">
+							</div>
+						<p>Aquapark Hajdúszoboszló</p>
+						</a>
+					</div>
+
+					<div class="kep_kartya">
+						<a href="https://www.egrivar.hu/fooldal">
+							<div class="kep">
+								<img src="css/kepek/kirandulas/kirandulas19.jpg">
+							</div>
+						<p>Egri Vár</p>
+						</a>
+					</div>
+
+					<div class="kep_kartya">
+						<a href="https://www.bnpi.hu/hu/tura/szalajka-volgyi-tanosveny">
+							<div class="kep">
+								<img src="css/kepek/kirandulas/kirandulas20.jpg">
+							</div>
+						<p>Szalajka-völgy</p>
+						</a>
+					</div>
+
+					<div class="kep_kartya">
+						<a href="https://szallas.hu/programok/egerszaloki-sodomb-egerszalok-p3319">
+							<div class="kep">
+								<img src="css/kepek/kirandulas/kirandulas21.jpg">
+							</div>
+						<p>Egerszalóki Sódomb</p>
+						</a>
+					</div>
+
+					<div class="kep_kartya">
+						<a href="https://varpark.hu/">
+							<div class="kep">
+								<img src="css/kepek/kirandulas/kirandulas22.jpg">
+							</div>
+						<p>Várpark (Dinnyés)</p>
+						</a>
+					</div>
+
+					<div class="kep_kartya">
+						<a href="https://turista-szalami.blog.hu/2018/03/23/tata_kirandulas_gyetvan">
+							<div class="kep">
+								<img src="css/kepek/kirandulas/kirandulas23.jpg">
+							</div>
+						<p>Öreg-tó (Tata)</p>
+						</a>
+					</div>
+
+					<div class="kep_kartya">
+						<a href="https://parkerdo.hu/turizmus/latnivalok/vadallo-kovek/">
+							<div class="kep">
+								<img src="css/kepek/kirandulas/kirandulas24.jpg">
+							</div>
+						<p>Vadálló-kövek (Pilis)</p>
+						</a>
+					</div>
+
+				</div>
+			</div>
+		</div>	
+
+
+		<div class="allatokklikk" onclick="allatok_lenyito()">
+			<img src="css/kepek/nyil.png">
+			Háziállatok
+		</div>
+
+		<div id="lenyilo_allatok" class="">
+			<div class="lenyilo_alallatok">
+				
+
+				<div class="kepek_flex_racs">
+			
+					<div class="kep_kartya">
+						<a href="#">
+							<div class="kep">
+								<img src="css/kepek/allatok/allatok1.jpg">
+							</div>
+						<p>Remi és Roni</p>
+						</a>
+					</div>
+
+					<div class="kep_kartya">
+						<a href="#">
+							<div class="kep">
+								<img src="css/kepek/allatok/allatok2.jpg">
+							</div>
+						<p>Gizi</p>
+						</a>
+					</div>
+
+					<div class="kep_kartya">
+						<a href="#">
+							<div class="kep">
+								<img src="css/kepek/allatok/allatok3.jpg">
+							</div>
+						<p>Gizi</p>
+						</a>
+					</div>
+
+					<div class="kep_kartya">
+						<a href="#">
+							<div class="kep">
+								<img src="css/kepek/allatok/allatok4.jpg">
+							</div>
+						<p>Gizi</p>
+						</a>
+					</div>
+
+					<div class="kep_kartya">
+						<a href="#">
+							<div class="kep">
+								<img src="css/kepek/allatok/allatok5.jpg">
+							</div>
+						<p>Husi</p>
+						</a>
+					</div>
+
+					<div class="kep_kartya">
+						<a href="#">
+							<div class="kep">
+								<img src="css/kepek/allatok/allatok6.jpg">
+							</div>
+						<p>Husi</p>
+						</a>
+					</div>
+
+					<div class="kep_kartya">
+						<a href="#">
+							<div class="kep">
+								<img src="css/kepek/allatok/allatok7.jpg">
+							</div>
+						<p>Gizi</p>
+						</a>
+					</div>
+
+					<div class="kep_kartya">
+						<a href="#">
+							<div class="kep">
+								<img src="css/kepek/allatok/allatok8.jpg">
+							</div>
+						<p>Gizi és folyékony Husi</p>
+						</a>
+					</div>
+
+					<div class="kep_kartya">
+						<a href="#">
+							<div class="kep">
+								<img src="css/kepek/allatok/allatok9.jpg">
+							</div>
+						<p>Gizi</p>
+						</a>
+					</div>
+
+					<div class="kep_kartya">
+						<a href="#">
+							<div class="kep">
+								<img src="css/kepek/allatok/allatok10.jpg">
+							</div>
+						<p>Husi</p>
+						</a>
+					</div>
+
+					<div class="kep_kartya">
+						<a href="#">
+							<div class="kep">
+								<img src="css/kepek/allatok/allatok11.jpg">
+							</div>
+						<p>Remi</p>
+						</a>
+					</div>
+
+					<div class="kep_kartya">
+						<a href="#">
+							<div class="kep">
+								<img src="css/kepek/allatok/allatok12.jpg">
+							</div>
+						<p>Roni</p>
+						</a>
+					</div>
+
+					<div class="kep_kartya">
+						<a href="#">
+							<div class="kep">
+								<img src="css/kepek/allatok/allatok13.jpg">
+							</div>
+						<p>Roni</p>
+						</a>
+					</div>
+
+					<div class="kep_kartya">
+						<a href="#">
+							<div class="kep">
+								<img src="css/kepek/allatok/allatok14.jpg">
+							</div>
+						<p>Remi és Roni</p>
+						</a>
+					</div>
+
+					<div class="kep_kartya">
+						<a href="#">
+							<div class="kep">
+								<img src="css/kepek/allatok/allatok15.jpg">
+							</div>
+						<p>Remi és Roni</p>
+						</a>
+					</div>
+
+					<div class="kep_kartya">
+						<a href="#">
+							<div class="kep">
+								<img src="css/kepek/allatok/allatok16.jpg">
+							</div>
+						<p>Husi</p>
+						</a>
+					</div>
+
+					<div class="kep_kartya">
+						<a href="#">
+							<div class="kep">
+								<img src="css/kepek/allatok/allatok17.jpg">
+							</div>
+						<p>Remi</p>
+						</a>
+					</div>
+
+					<div class="kep_kartya">
+						<a href="#">
+							<div class="kep">
+								<img src="css/kepek/allatok/allatok18.jpg">
+							</div>
+						<p>Gizi</p>
+						</a>
+					</div>
+
+				</div>
+			</div>
+		</div>	
+
+	</main>
+
+	<footer>
+		<div class= "elerhetoseg">
+			Elérhetőségeim:
+		</div>
+		<span class="ikon">
+			<a href="https://www.facebook.com/viktoria.kunsagi.3/">
+			<img src="css/kepek/facebook.png">
+			</a>			
+		</span>
+		<span class="ikon">
+			<a href="https://www.instagram.com/kunsagiviki/">
+			<img src="css/kepek/instagram.jpg">
+			</a>
+		</span>
+		<span class="ikon">
+			<a href="mailto:kviktoria20000602@gmail.com">
+			<img src="css/kepek/gmail.png">
+			</a>	
+		</span>
+
+
+	</footer>
+
+
+
+
+</body>
+</html>
